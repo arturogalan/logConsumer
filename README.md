@@ -49,5 +49,4 @@ Each line represents connection from a host (left) to another host (right) at a 
 connect to database:
     psql logparser -h localhost -U postgres
 
-
-NOTE: To log into the console change the transport class in modules/logger.js    
+NOTE: To log into the console or in file, change the desired transport class in modules/logger.js    
