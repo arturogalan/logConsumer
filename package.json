@@ -1,0 +1,26 @@
+{
+  "name": "logparser",
+  "version": "1.0.0",
+  "description": "Consume events previously readed from kafka, check the format and insert into DB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturogalan/logConsumer.git"
+  },
+  "author": "AGB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturogalan/logConsumer/issues"
+  },
+  "homepage": "https://github.com/arturogalan/logConsumer#readme",
+  "dependencies": {
+    "no-kafka": "^3.1.0",
+    "pg": "6.4.0",
+    "lodash": "^4.17.4",
+    "winston": "2.3.1"
+  }
+}
